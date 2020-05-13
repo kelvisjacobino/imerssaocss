@@ -66,9 +66,21 @@ body {
     text-align:center;
     
   }
+
+  .site-title {
+    font-size: 4em;
+    font-family: 'Balsamiq Sans', cursive;
+  }
   
   .site-subtitle{
     font-style:italic;
+    font-family: 'Balsamiq Sans', cursive;
+    line-height: 1.5em;
+  }
+
+  .portifolio h2 {
+    font-family: 'Balsamiq Sans', cursive;
+
   }
 
   .img-portfolio{
