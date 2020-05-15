@@ -8,10 +8,10 @@
 body {
   
   background-image: url('../img/highlight-purple-linear-gradient.jpg');
-  background-color: indigo;
-  background-size: auto 100vh;
+  background-size: 360vh;
+  background-position: center;
   font-family: Arial;
-  height: 100vh;
+  /*height: 100vh;*/
   font-size: 10px;
   }
 
@@ -85,8 +85,10 @@ a:hover {
 
 .portifolio{
   padding: 1em;
+  height: 100vh;
 }
 
+.contato h2,
 .portifolio h2 {
   font-family: 'Balsamiq Sans', cursive;
   margin-bottom: 0.8em;
@@ -95,6 +97,7 @@ a:hover {
   text-align: center;
 }
 
+
 .portifolio .grid{
   display: grid;
   gap: 1em;
@@ -102,10 +105,14 @@ a:hover {
   color: rgb(145, 255, 0);
      
 }
+.contato .icons{
+  text-align:  center;
+}
 
 @media (min-width: 600px){ 
   .portifolio .grid{
     grid-template-columns: 300px 300px;
+     height: calc(100vh - 8em - 48px -1.5em);
   }
   
 }
@@ -115,7 +122,9 @@ a:hover {
     grid-template-columns: repeat(3, 220px);
     align-content: center;
     justify-content: center;
-    height: calc(100vh - 8em - 48px)
+    height: calc(100vh - 8em - 48px - 1.5em);
+    align-items: center;
+
   }
 }
   
@@ -125,7 +134,7 @@ a:hover {
     grid-template-columns: repeat(4, 260px);
     align-content: center;
     justify-content: center;
-    height: calc(100vh - 8em - 48px)
+    height: calc(100vh - 8em - 48px -1.5em);
   }
   
 }
@@ -139,5 +148,13 @@ a:hover {
   height: 240px;
 }
 
+.contato a {
+  color: whitesmoke;
+  font-size: 3em;
+}
 
+.contato a:hover {
+  text-decoration: none;
+  text-shadow: 0px 0px 10px rgba(255,255,255,.5);
+}
 
