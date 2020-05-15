@@ -109,16 +109,16 @@ a:hover {
   }
   
 }
-/*
+
 @media (min-width: 880px){ 
-  .portifolio.grid{
-    grid-template-columns: repeat(2, 260px);
+  .portifolio .grid{
+    grid-template-columns: repeat(4, 260px);
     align-content: center;
     justify-content: center;
     height: calc(100vh - 8em - 48px)
   }
   
-}*/
+}
 
 .portifolio figure {
   text-align: center;
